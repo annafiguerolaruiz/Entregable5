@@ -8,13 +8,14 @@ public class PlayerController : MonoBehaviour
     private float turnSpeed = 20f;
     private float verticalInput;
     private float zMax = 450f;
-    // Start is called before the first frame update
+
+   //
     void Start()
     {
         transform.position = Vector3.zero;
     }
 
-    // Update is called once per frame
+    // 
     void Update()
     {
         if (transform.position.z > zMax)
